@@ -19,10 +19,10 @@ class Camera():
 
     def update(self, conn, rtsp_url):
         """
-        Runs the camera thread to grab data and keep the buffer empty.
+        Runs the rtspcam thread to grab data and keep the buffer empty.
 
         :param conn:  the Pipe to transmit data
-        :param rtsp_url: the url of the camera.
+        :param rtsp_url: the url of the rtspcam.
         :return:
         """
         # load cam into seperate process
@@ -53,7 +53,7 @@ class Camera():
 
     def get_frame(self, resize=None):
         """
-        Grabs frame from camera
+        Grabs frame from rtspcam
 
         :param resize: int - used to resize the output i.e 0.5 will half the frame
         :return:
