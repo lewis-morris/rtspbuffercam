@@ -26,7 +26,7 @@ python setup.py install
 
 ```python
 #import the rtspcam
-from rtspbuffercam import Camera
+from rtspcam import Camera
 
 #create a new rtspcam object  
 cam = Camera("rtsp://admin:[your password]@192.168.0.40/h264Preview_01_main")
