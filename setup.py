@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='rtspbuffercam',
-    version='0.1.1',
+    version='0.1.2',
     packages=['rtspcam'],
     url='https://github.com/lewis-morris/rtspbuffercam',
     license='MIT',
