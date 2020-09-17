@@ -1,0 +1,2 @@
+opencv-python~=4.2.0.34
+setuptools~=46.1.3

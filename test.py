@@ -2,9 +2,7 @@ import camera
 import cv2
 
 cam = camera.Camera("rtsp://admin:Arctattv3@192.168.0.40/h264Preview_01_main")
-
-print(f"Camera is alive?: {cam.p.is_alive()}")
-
+cam.get_frame()
 while(1):
     frame = cam.get_frame(0.65)
 
